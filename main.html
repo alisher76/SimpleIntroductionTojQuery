@@ -49,37 +49,26 @@ look for category of events where we can find events like click
         //h.css(newCSS)
         $('h2').text()
         $('h2').text("brand new text")
-
         // function
         $('h1').click(function() {
           console.log("There was a click");
           $('h1').text('Hey this will work cuz u clicked')
         })
-
         $('h2').click(function() {
           console.log("There was a click");
           $(this).text('I was changed with this')
         })
-
         // on
-
         $('h2').on('dblclick', function() {
           console.log("There was a click");
           $(this).toggleClass('turnBlue')
         })
-
-
         // keypress
         // event.which
-
-
         $('input').eq(0).keypress(function(){
           $('h2').toggleClass('trunBlue')
         })
 
       </script>
-
-
-
    </body>
  </html>
